@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>User Form of HTML</title>
+    <style>
+        .container-fluid {
+            background-image: linear-gradient(lightskyblue, lightgrey);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            color: darkblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid border border-primary w-50 mt-4 pt-3">
+        <form class="form-group" action="/showDetails" method="post">
+            <h1 class="text-center mb-3">Registration</h1>
+            <b>Enter User Name : </b><input class="form-control" type="text" name="name" /><br />
+            <b>Enter Email : </b><input class="form-control" type="email" name="email" /><br />
+            <b>Enter Password : </b><input class="form-control" type="password" name="password" /><br />
+            <b>Date of Birth : </b><input class="form-control" type="date" name="dob" /><br />
+            <b>Enter City : </b><input class="form-control" type="text" name="city" /><br />
+            <b>Enter Country : </b><input class="form-control" type="text" name="country" /><br />
+            <div class="text-center"><button class="btn btn-outline-primary"><b>Add User</b></button></div>
+        </form>
+    </div>
+</body>
+
+</html>
